@@ -35,4 +35,8 @@ async def number(ctx):
 async def flipacoin(ctx):
     await ctx.send(flip_coin())
 
+@bot.command()
+async def helper(ctx):
+    await ctx.send(helper1())
+
 bot.run()
